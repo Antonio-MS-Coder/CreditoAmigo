@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - CréditoAmigo</title>
+    <link rel="stylesheet" href="styles_3.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CréditoAmigo</h1>
+            <nav>
+                <ul>
+                    <li><a href="index_3.html">Inicio</a></li>
+                    <li><a href="about_3.html">Nosotros</a></li>
+                    <li><a href="services_3.html">Servicios</a></li>
+                    <li><a href="contact_3.html" class="active">Contacto</a></li>
+                    <li><a href="testimonials_3.html">Testimonios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Estamos Aquí para Ayudarte</h2>
+                <p>En CréditoAmigo, tu bienestar financiero es nuestra prioridad. No dudes en ponerte en contacto con nosotros para cualquier consulta o asesoría que necesites. ¡Estamos para servirte!</p>
+            </div>
+        </section>
+        <section class="contact-info">
+            <div class="container">
+                <h3>Información de Contacto</h3>
+                <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
+                <p><strong>Email:</strong> contacto@creditoamigo.com</p>
+                <p><strong>Dirección:</strong> Av. Revolución 123, Col. Escandón, CDMX, México</p>
+                <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <h3>Formulario de Contacto</h3>
+                <form action="enviar_formulario.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <h3>¿Listo para dar el siguiente paso?</h3>
+                <p>No esperes más, contáctanos hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas financieras.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CréditoAmigo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
